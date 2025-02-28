@@ -216,7 +216,7 @@ class Demo{
     public static void main(String[] args) {
         int arr[]={12,25,14,16,9,9,0,18,17};
 
-        System.out.println("Array after Quick sort sorting : ");
+        System.out.println("Array before Quick sort sorting : ");
         for(int n:arr)
         {
             System.out.print(n+" ");
@@ -309,15 +309,15 @@ class Demo{
                  arr[k]=larr[i];
                  i++;
 
-            }else{
+            }
+            else{
                 arr[k]=rarr[j];
             j++;
 
             }
             k++;
-            
+
         }
-        
 
         while(i<n1){
 
