@@ -12,7 +12,7 @@ public class Runner1 {
         d.insertAtIndex(120, 1);
         d.DeleteFromBeg();
         d.DeleteFromEnd();
-        d.DeleteAtIndex(5);
+        d.DeleteAtIndex(0);
         d.Display();
     }
     

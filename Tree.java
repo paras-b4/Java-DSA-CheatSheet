@@ -1,14 +1,16 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 class Node{
     int data;
     Node Left;
     Node Right;
-    public Object next;
+    
     public Node(int data){
         this.data=data;
     }
 }
-class BinnaryTree{
+class BinaryTree{
     public Node Create()
     {
         Scanner sc=new Scanner(System.in);
@@ -59,6 +61,7 @@ class BinnaryTree{
     }
 
 }
+
 class Main{
     public static void main(String[] args) 
     {
@@ -70,3 +73,14 @@ class Main{
         
     }
 }
+
+// class A{
+//     public static void main(String[] args) {
+//         int arr[]={1,12,23,14,5};
+//         Arrays.sort(arr);
+//         for(int i :arr)
+//              System.out.print(i+" ");
+//         System.out.println();
+//         System.out.println(arr.length);
+//     }
+// }

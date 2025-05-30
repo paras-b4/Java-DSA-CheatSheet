@@ -8,12 +8,12 @@ public class Runner {
         d.Create(40);
         d.Create(50);
         d.Create(60);
-         d.insertAtBegining(100);
+        // d.insertAtBegining(100);
          d.insertAtEnd(90);
-         d.insertAtIndex(120, 1);
-         d.DeleteFromBeg();
-         d.DeleteFromEnd();
-         d.DeleteAtIndex(1);
+         d.insertAtIndex(120, 2);
+        //  d.DeleteFromBeg();
+        //  d.DeleteFromEnd();
+        //  d.DeleteAtIndex(1);
          //d.getLength();
         d.Display();
     }

@@ -9,9 +9,9 @@ public class Runner2 {
         c.insertAtBegining(100);
         c.insertAtEnd(90);
         c.insertAtIndex(120, 5);
-        c.DeleteFromBeg();
-        c.DeleteFromEnd();
-        c.DeleteAtIndex(10);
+         c.DeleteFromBeg();
+         c.DeleteFromEnd();
+         c.DeleteAtIndex(0);
         c.Display();
     }
 }

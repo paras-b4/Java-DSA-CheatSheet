@@ -61,7 +61,7 @@ class LinkedList{
         newNode.next=null;
         Node temp=head;
        
-        int i=1;
+        int i=0;
         //int count=0;
         // while(temp.next!=null){
 
@@ -77,7 +77,7 @@ class LinkedList{
             insertAtBegining(data);
         }
         else{
-            while (i<index) 
+            while (i<index-1) 
         {
             
             temp=temp.next;
